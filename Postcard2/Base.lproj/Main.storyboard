@@ -93,13 +93,22 @@
                                     <action selector="sendMailButtonPressed:" destination="Ijz-8z-lp4" eventType="touchUpInside" id="G2I-RT-s9u"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UPN-OV-TAN">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="157" width="250" height="28"/>
+                                </variation>
+                            </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LOp-Jv-SjL">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="72" width="145" height="32"/>
+                                    <rect key="frame" x="16" y="72" width="250" height="32"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -110,6 +119,7 @@
                                 <exclude reference="uvv-xq-1lR"/>
                                 <exclude reference="7lU-p9-7au"/>
                                 <exclude reference="y6u-ZW-zll"/>
+                                <exclude reference="UPN-OV-TAN"/>
                                 <exclude reference="LOp-Jv-SjL"/>
                             </mask>
                         </variation>
@@ -119,6 +129,7 @@
                                 <include reference="uvv-xq-1lR"/>
                                 <include reference="7lU-p9-7au"/>
                                 <include reference="y6u-ZW-zll"/>
+                                <include reference="UPN-OV-TAN"/>
                                 <include reference="LOp-Jv-SjL"/>
                             </mask>
                         </variation>
@@ -128,6 +139,7 @@
                         <outlet property="enterNameTextField" destination="uvv-xq-1lR" id="aCS-gr-8v1"/>
                         <outlet property="mailButton" destination="y6u-ZW-zll" id="TM1-vL-xAK"/>
                         <outlet property="messageLabel" destination="LOp-Jv-SjL" id="9wM-u4-wFJ"/>
+                        <outlet property="nameLabel" destination="UPN-OV-TAN" id="CJe-CE-ZN5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uZI-zM-uqX" userLabel="First Responder" sceneMemberID="firstResponder"/>
